@@ -1,0 +1,78 @@
+/* Soft earth tone palette */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdfaf6;
+  color: #333;
+  line-height: 1.6;
+}
+
+.hero {
+  background-color: #d8cbb7;
+  color: #2e2e2e;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.cta-button {
+  background-color: #786452;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.about, .benefits, .testimonials {
+  background-color: #f5f1ea;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li::before {
+  content: "✓ ";
+  color: #786452;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+form button {
+  background-color: #786452;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #e0d7c8;
+  color: #444;
+}
